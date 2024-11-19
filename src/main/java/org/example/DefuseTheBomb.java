@@ -2,7 +2,7 @@ package org.example;
 
 import java.util.*;
 
-public class Solution {
+public class DefuseTheBomb {
     public int[] decrypt(int[] code, int k) {
         int n = code.length;
         int[] ans = new int[n];

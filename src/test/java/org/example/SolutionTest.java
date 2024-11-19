@@ -5,7 +5,7 @@
 
     class SolutionTest {
 
-        Solution solution = new Solution();
+        DefuseTheBomb solution = new DefuseTheBomb();
 
         @Test
         void testDecryptWithKZero() {
@@ -31,5 +31,6 @@
         void testDecryptWithSingleElementArray() {
             assertArrayEquals(new int[]{42}, solution.decrypt(new int[]{42}, 1));
         }
+
     }
 
