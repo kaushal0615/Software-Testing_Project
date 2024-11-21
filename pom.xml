@@ -54,6 +54,12 @@
                 <groupId>org.pitest</groupId>
                 <artifactId>pitest-maven</artifactId>
                 <version>1.15.2</version>
+                <configuration>
+
+                    <timeoutConstant>4000</timeoutConstant> <!-- Increase timeout to 4 seconds -->
+                    <threads>4</threads>
+
+                </configuration>
                 <dependencies>
                     <dependency>
                         <groupId>org.pitest</groupId>

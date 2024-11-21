@@ -5,15 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="12b537ae-2083-4301-a639-f11f4b9ef07a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/CountFairPairs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/CountUnguardedCells.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/PrimeSubOperation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/CountFairPairTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/CountUnguardedCellsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/PrimeSubOperationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/LargestCombination.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/MakeStringFancy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/MinChanges.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/MinEnd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/RotateString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/LargestCombinationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/MinChangesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/MinEndTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/RotateStringTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/SolutionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/DefuseTheBombTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,8 +48,12 @@
     "JUnit.CountUnguardedCellsTest.executor": "Run",
     "JUnit.DefuseTheBombTest.executor": "Run",
     "JUnit.FindLengthOfShortestSubarrayTest.executor": "Run",
+    "JUnit.LargestCombinationTest.executor": "Run",
     "JUnit.MaximumSubarraySumWithDistinctKTest.executor": "Run",
+    "JUnit.MinChangesTest.executor": "Run",
+    "JUnit.MinEndTest.executor": "Run",
     "JUnit.PrimeSubOperationTest.executor": "Run",
+    "JUnit.RotateStringTest.executor": "Run",
     "JUnit.ShortestSubarraySumWithAtleastKTest.executor": "Run",
     "JUnit.SolutionTest.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -88,7 +94,7 @@
       <workItem from="1731936228389" duration="1505000" />
       <workItem from="1732018240988" duration="9508000" />
       <workItem from="1732112407216" duration="5017000" />
-      <workItem from="1732183259474" duration="838000" />
+      <workItem from="1732183259474" duration="3719000" />
     </task>
     <servers />
   </component>
