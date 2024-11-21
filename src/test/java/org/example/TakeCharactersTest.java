@@ -58,7 +58,6 @@ class TakeCharactersTest {
         assertEquals(-1, takeCharacters.takeCharacters("aaaa", 1));
         assertEquals(-1, takeCharacters.takeCharacters("aaaaa", 4));
     }
-
     @Test
     void testMixedCharacters() {
         // Mixed scenarios
