@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="12b537ae-2083-4301-a639-f11f4b9ef07a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/MinimizedMaximum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/MinimizedMaximumTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="12b537ae-2083-4301-a639-f11f4b9ef07a" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,6 +40,7 @@
     "JUnit.DefuseTheBombTest.executor": "Run",
     "JUnit.FindLengthOfShortestSubarrayTest.executor": "Run",
     "JUnit.LargestCombinationTest.executor": "Run",
+    "JUnit.MaximumBeautyTest.executor": "Run",
     "JUnit.MaximumSubarraySumWithDistinctKTest.executor": "Run",
     "JUnit.MinChangesTest.executor": "Run",
     "JUnit.MinEndTest.executor": "Run",
