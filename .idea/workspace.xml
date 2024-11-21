@@ -5,11 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="12b537ae-2083-4301-a639-f11f4b9ef07a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/FindLengthOfShortestSubarray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ShortestSubarraySumWithAtleastK.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/FindLengthOfShortestSubarrayTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/ShortestSubarraySumWithAtleastKTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/CountFairPairs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/CountUnguardedCells.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/PrimeSubOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/CountFairPairTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/CountUnguardedCellsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/PrimeSubOperationTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/SolutionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/DefuseTheBombTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,8 +42,12 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.CountFairPairsTest.executor": "Run",
+    "JUnit.CountUnguardedCellsTest.executor": "Run",
+    "JUnit.DefuseTheBombTest.executor": "Run",
     "JUnit.FindLengthOfShortestSubarrayTest.executor": "Run",
     "JUnit.MaximumSubarraySumWithDistinctKTest.executor": "Run",
+    "JUnit.PrimeSubOperationTest.executor": "Run",
     "JUnit.ShortestSubarraySumWithAtleastKTest.executor": "Run",
     "JUnit.SolutionTest.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -79,7 +87,8 @@
       <workItem from="1731935034432" duration="1179000" />
       <workItem from="1731936228389" duration="1505000" />
       <workItem from="1732018240988" duration="9508000" />
-      <workItem from="1732112407216" duration="1376000" />
+      <workItem from="1732112407216" duration="5017000" />
+      <workItem from="1732183259474" duration="838000" />
     </task>
     <servers />
   </component>

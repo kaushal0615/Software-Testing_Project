@@ -3,7 +3,7 @@
     import org.junit.jupiter.api.Test;
     import static org.junit.jupiter.api.Assertions.*;
 
-    class SolutionTest {
+    class DefuseTheBombTest {
 
         DefuseTheBomb solution = new DefuseTheBomb();
 
