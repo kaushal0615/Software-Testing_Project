@@ -5,22 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="12b537ae-2083-4301-a639-f11f4b9ef07a" name="Changes" comment="">
-        <change afterPath="$PROJECT_DIR$/src/main/java/org/example/LargestCombination.java" afterDir="false" />
-        <change afterPath="$PROJECT_DIR$/src/main/java/org/example/MakeStringFancy.java" afterDir="false" />
-        <change afterPath="$PROJECT_DIR$/src/main/java/org/example/MinChanges.java" afterDir="false" />
-        <change afterPath="$PROJECT_DIR$/src/main/java/org/example/MinEnd.java" afterDir="false" />
-        <change afterPath="$PROJECT_DIR$/src/main/java/org/example/RotateString.java" afterDir="false" />
-        <change afterPath="$PROJECT_DIR$/src/test/java/org/example/LargestCombinationTest.java" afterDir="false" />
-        <change afterPath="$PROJECT_DIR$/src/test/java/org/example/MinChangesTest.java" afterDir="false" />
-        <change afterPath="$PROJECT_DIR$/src/test/java/org/example/MinEndTest.java" afterDir="false" />
-        <change afterPath="$PROJECT_DIR$/src/test/java/org/example/RotateStringTest.java" afterDir="false" />
-        <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ResultsArray.java" afterDir="false" />
-        <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TakeCharacters.java" afterDir="false" />
-        <change afterPath="$PROJECT_DIR$/src/test/java/org/example/ResultsArrayTest.java" afterDir="false" />
-        <change afterPath="$PROJECT_DIR$/src/test/java/org/example/TakeCharactersTest.java" afterDir="false" />
-        <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-        <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/MinimizedMaximum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/MinimizedMaximumTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,9 +47,10 @@
     "JUnit.MaximumSubarraySumWithDistinctKTest.executor": "Run",
     "JUnit.MinChangesTest.executor": "Run",
     "JUnit.MinEndTest.executor": "Run",
+    "JUnit.MinimizedMaximumTest.executor": "Run",
     "JUnit.PrimeSubOperationTest.executor": "Run",
-    "JUnit.RotateStringTest.executor": "Run",
     "JUnit.ResultsArrayTest.executor": "Run",
+    "JUnit.RotateStringTest.executor": "Run",
     "JUnit.ShortestSubarraySumWithAtleastKTest.executor": "Run",
     "JUnit.SolutionTest.executor": "Run",
     "JUnit.TakeCharactersTest.executor": "Run",
@@ -114,5 +102,9 @@
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
