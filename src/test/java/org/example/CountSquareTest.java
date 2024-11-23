@@ -1,13 +1,20 @@
 package org.example;
 
 import org.junit.jupiter.api.Test;
-import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.*;
 
-class CountSquareTest {
+class CountSquareCombinedTest {
 
+    // Helper method to create CountSquare with GridHelper
+    private CountSquare createCountSquare() {
+        GridHelper helper = new GridHelper();
+        return new CountSquare(helper);
+    }
+
+    // Unit-level tests
     @Test
     void testExample1() {
-        CountSquare solution = new CountSquare();
+        CountSquare solution = createCountSquare();
         int[][] matrix = {
                 {0, 1, 1, 1},
                 {1, 1, 1, 1},
@@ -18,7 +25,7 @@ class CountSquareTest {
 
     @Test
     void testExample2() {
-        CountSquare solution = new CountSquare();
+        CountSquare solution = createCountSquare();
         int[][] matrix = {
                 {1, 0, 1},
                 {1, 1, 0},
@@ -29,7 +36,7 @@ class CountSquareTest {
 
     @Test
     void testSmallGrid() {
-        CountSquare solution = new CountSquare();
+        CountSquare solution = createCountSquare();
         int[][] matrix = {
                 {1, 0, 0},
                 {1, 1, 0}
@@ -39,7 +46,7 @@ class CountSquareTest {
 
     @Test
     void testMixedGrid() {
-        CountSquare solution = new CountSquare();
+        CountSquare solution = createCountSquare();
         int[][] matrix = {
                 {1, 1, 1, 1},
                 {1, 0, 0, 1},
@@ -51,7 +58,7 @@ class CountSquareTest {
 
     @Test
     void testComplexGrid() {
-        CountSquare solution = new CountSquare();
+        CountSquare solution = createCountSquare();
         int[][] matrix = {
                 {0, 1, 1, 1},
                 {1, 1, 0, 1},
@@ -63,7 +70,7 @@ class CountSquareTest {
 
     @Test
     void testNonSquareMatrix() {
-        CountSquare solution = new CountSquare();
+        CountSquare solution = createCountSquare();
         int[][] matrix = {
                 {1, 0, 1, 0, 1},
                 {1, 0, 0, 1, 1},
@@ -75,7 +82,7 @@ class CountSquareTest {
 
     @Test
     void testLargeGrid() {
-        CountSquare solution = new CountSquare();
+        CountSquare solution = createCountSquare();
         int[][] matrix = {
                 {1, 1, 0, 0, 1},
                 {1, 0, 1, 1, 1},
@@ -84,5 +91,46 @@ class CountSquareTest {
                 {0, 0, 1, 0, 1}
         };
         assertEquals(19, solution.countSquares(matrix));
+    }
+
+    // Integration-level tests
+    @Test
+    void testIntegrationSmallGrid() {
+        CountSquare solution = createCountSquare();
+        int[][] grid = {
+                {1, 1},
+                {1, 1}
+        };
+        assertEquals(5, solution.countSquares(grid)); // 4 squares of size 1 and 1 square of size 2
+    }
+
+    @Test
+    void testIntegrationSingleCell() {
+        CountSquare solution = createCountSquare();
+        int[][] grid = {
+                {1}
+        };
+        assertEquals(1, solution.countSquares(grid)); // Only 1 square of size 1
+    }
+
+    @Test
+    void testIntegrationEmptyGrid() {
+        CountSquare solution = createCountSquare();
+        int[][] grid = {
+                {0, 0},
+                {0, 0}
+        };
+        assertEquals(0, solution.countSquares(grid)); // No squares
+    }
+
+    @Test
+    void testIntegrationLargerGrid() {
+        CountSquare solution = createCountSquare();
+        int[][] grid = {
+                {1, 1, 1},
+                {1, 1, 1},
+                {1, 1, 1}
+        };
+        assertEquals(14, solution.countSquares(grid)); // 9 squares of size 1, 4 squares of size 2, 1 square of size 3
     }
 }
